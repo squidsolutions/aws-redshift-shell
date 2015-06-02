@@ -31,12 +31,12 @@ The `etc/redshift.conf` file handles a few configuration variables. See the inli
 Usage: ./bin/redshift.sh  -a {start|stop|save} -r aws_region -c cluster_name [-p awscli-profile]
 ```
 
-* *-a*: The *action* to take,
-* *-r*: The AWS *region* in which the cluster is defined,
-* *-c*: The *name* of the cluster,
-* *-p*: The name of the profile used by awscli.
+* **-a**: The **action** to take,
+* **-r**: The AWS **region** in which the cluster is defined,
+* **-c**: The **name** of the cluster,
+* **-p**: The name of the **profile** used by awscli.
 
-The *stop* and *save* actions will create a .json file in the `etc/` directory for each cluster you need to start/stop.
+The **stop** and **save** actions will create a .json file in the `etc/` directory for each cluster you need to start/stop.
 
 ## Crontab example
 
